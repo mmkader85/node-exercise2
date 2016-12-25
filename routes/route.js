@@ -3,6 +3,7 @@
  */
 exports.home = function (req, res) {
     res.render('home', {
+        city: null,
         title: 'iLoveMyCity',
         headline: 'We believe that every city have something to say'
     });
