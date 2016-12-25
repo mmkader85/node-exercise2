@@ -1,0 +1,29 @@
+{
+  "name": "node-exercise2",
+  "version": "1.0.0",
+  "description": "edureka node exercise2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmkader85/node-exercise2.git"
+  },
+  "keywords": [
+    "edureka",
+    "node",
+    "ejs"
+  ],
+  "author": "Muhammed Abdul Kader",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmkader85/node-exercise2/issues"
+  },
+  "homepage": "https://github.com/mmkader85/node-exercise2#readme",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <% include partials/head.ejs %>
+        <title><%=title%></title>
+    </head>
+    <body>
+        <% include partials/header.ejs %>
+        <section class="sectionMain">
+            <div class="container">
+                <div class="row voffset6">
+                    <h1><%=headline%></h1>
+                </div>
+                <div class="row voffset3">
+                    <% for(var i=1; i<=imageCount; i++) { %>
+                        <div class="col-md-6">
+                            <img class="img-thumbnail" src="/images/<%=city%>/<%=city%>-<%=i%>.jpg" />
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+        </section>
+        <% include partials/commonjs.ejs %>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">iLoveMyCity</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li <%= (city == 'berlin') ? 'class=active' : '' %>>
+                        <a href="/berlin">Berlin</a>
+                    </li>
+                    <li <%= (city == 'paris') ? 'class=active' : '' %>>
+                        <a href="/paris">Paris</a>
+                    </li>
+                    <li <%= (city == 'madrid') ? 'class=active' : '' %>>
+                        <a href="/madrid">Madrid</a>
+                    </li>
+                    <li <%= (city == 'london') ? 'class=active' : '' %>>
+                        <a href="/london">London</a>
+                    </li>
+                    <li <%= (city == 'newyork') ? 'class=active' : '' %>>
+                        <a href="/newyork">New York</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
