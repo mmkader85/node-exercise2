@@ -42,6 +42,6 @@ exports.city = function (req, res) {
         city: city,
         title: title,
         headline: headline,
-        imageCount: imageCount,
+        imageCount: imageCount
     });
 };
